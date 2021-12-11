@@ -24,5 +24,5 @@ func timeout(f func(chan bool)) error {
 }
 
 func TestTimeout(t *testing.T) {
-	timeout(dobadthing)
+	fmt.Println(timeout(dobadthing))
 }
